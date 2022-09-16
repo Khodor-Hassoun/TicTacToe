@@ -6,6 +6,9 @@ body{
     height: 100vh;
     /* box-sizing: border-box;   */
 }
+img{
+  width: 100%;
+}
 .ticTac {
     width: 42vw;
     height: 42vw;
@@ -54,4 +57,13 @@ body{
     height: 12vw;
     margin: 1vw;
     background-color: aqua;
+}
+.players{
+  display: none;
+}
+.player1{
+  background-image: url('../assets/red.png');
+}
+.player2{
+  background-image: url('../assets/yellow.png');
 }
